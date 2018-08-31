@@ -1,4 +1,7 @@
 
+import numpy as np
+import pandas as pd
+
 
 def get_mean_sem_trace(group):
     mean_response = np.mean(group['mean_response'])
